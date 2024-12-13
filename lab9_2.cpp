@@ -1,6 +1,19 @@
 #include<iostream>
 using namespace std;
-
+void printO(int m,int n){
+	if(m>0&&n>0){
+	for(int i=0;i<m;i++)
+	{
+		for(int j=0;j<n;j++)
+		{
+			cout << "O";
+		}
+		cout << "\n";}
+	}
+	else{
+		cout <<"Invalid input";
+	}
+}
 //Write the function printO() here
 
 int main(){
